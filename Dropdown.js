@@ -27,6 +27,7 @@ element.all(by.tagName("option")).each(function(item){
     item.getAttribute("value").then(function(text){
 
         console.log(text);
+        console.log("Test is completed");
 
 
 

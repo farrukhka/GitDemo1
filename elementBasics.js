@@ -11,6 +11,7 @@ describe('Protractor Element Demo', function(){
     beforeEach(function(){
         obje.getURL();
         console.log("landing URL");
+        console.log("I'm going to my GitHub");
     });
 
         using(dp.Datadriven, function(data, description){
